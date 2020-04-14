@@ -1,0 +1,110 @@
+.swiper-container {
+    width: 100%;
+}
+.swiper-left-content {
+    padding-left: 100px;
+}
+.swiper-left-content.amazon-link img{
+    margin: 0 10%;
+    width: 80%;
+}
+.swiper-right-content {
+    padding-right: 100px;
+}
+.swiper-left-content, .swiper-right-content {
+    overflow: hidden;
+}
+.slider-next-button {
+    padding: 10px;
+    margin: 20px 10px;
+}
+.swiper-header-note {
+    margin-top: -24px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.swiper-price {
+    color: #ff4486;
+}
+.swiper-gallery-button {
+    padding: 5px 10px;
+    background: #ff4486;
+    color: #fff;
+    font-size: 120%;
+    float: right;
+    border-radius: 4px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+.best-seller{
+    font-weight: normal;
+    background: #ff4486;
+    color: white;
+    padding: 0 8px;
+    border-radius: 4px;
+}
+.best-seller-2 {
+    font-weight: bold;
+    font-size: 90%;
+    margin-left: 4px;
+}
+arrow {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+}
+.swiper-gallery-button .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.swiper-gallery-button .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.swiper-gallery-button .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.swiper-gallery-button .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    padding: 12px 7px;
+    background: #ff4486;
+}
+.swiper-button-prev, .swiper-button-next {
+    color: #ffffff;
+}
+@media screen and (max-width: 1680px) {
+
+    .swiper-container, .swiper-left-content, .swiper-right-content {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .swiper-container, .swiper-left-content, .swiper-right-content {
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .swiper-container, .swiper-left-content, .swiper-right-content {
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .swiper-container, .swiper-left-content, .swiper-right-content {
+        height: 300px;
+    }
+
+}
